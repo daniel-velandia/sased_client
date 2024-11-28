@@ -47,7 +47,7 @@ const AnalysisChart = () => {
             const formData = new FormData();
             formData.append('file', file);
 
-            const response = await axios.post('http://54.172.105.83:8000/analyze', formData, {
+            const response = await axios.post('http://18.218.144.29:8000/analyze', formData, {
                 headers: { 'Content-Type': 'multipart/form-data' },
             });
 
